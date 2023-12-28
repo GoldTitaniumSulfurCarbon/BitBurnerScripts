@@ -1,4 +1,8 @@
-/** @param {NS} ns */
+//Copies the main four hacking scripts to a server, then runs it on the target
+//First argument is the server to host the scripts, second is server to hack from.
+//The ratios of the scripts are balanced for a 16TB server.
+
+
 export async function main(ns) {
   //First argument is the server to host script
   //Second argument is server that is getting hacked
